@@ -31,7 +31,7 @@ def myPutService():
 	body = request.get_json()
 	print("Got Request!")
 	print(body)
-	print(f"message: {body['data']['message']}")
+	print(f"message: {body['data']['message']}") 
 	# This is where you use this request to update something
 	return "Updated Data", 204 
 
